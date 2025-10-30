@@ -42,7 +42,7 @@ function genSolidsRecognize(n=6): Exercise[]{ const vormen=[
 } return ex; }
 
 const TH = {
-  h1: "📘 **Hoofdstuk 1 – Ruimtefiguren**
+  h1: `📘 **Hoofdstuk 1 – Ruimtefiguren**
 
 ### 🌟 Inleiding
 Ruimtefiguren zijn **3D-vormen**: ze hebben lengte, breedte én hoogte. Je ziet ze overal in het dagelijks leven (dozen, blikjes, ijsjes, dobbelstenen).
@@ -71,9 +71,8 @@ De **uitslag** is de opengevouwen versie van een ruimtefiguur (bijv. 6 vierkante
 - Top vergeten bij piramide
 
 ### ✅ Samenvatting
-3D-figuren herken je aan vlakken, ribben en hoekpunten. Denk aan echte voorwerpen om ze snel te herkennen.
-",
-  h2s1: "📘 **Hoofdstuk 2 – Rekenen met negatieve getallen**
+3D-figuren herken je aan vlakken, ribben en hoekpunten. Denk aan echte voorwerpen om ze snel te herkennen.`,
+  h2s1: `📘 **Hoofdstuk 2 – Rekenen met negatieve getallen**
 
 ### 🌡️ Wat zijn negatieve getallen?
 Negatieve getallen zijn kleiner dan nul en liggen **links** van 0 op de getallenlijn. Voorbeelden: temperatuur −5°C, saldo −€20, diepte −10 m.
@@ -94,9 +93,8 @@ Negatieve getallen zijn kleiner dan nul en liggen **links** van 0 op de getallen
 
 ### ⚠️ Veelgemaakte fouten
 - Richting omdraaien op de getallenlijn
-- Dubbele min vergeten om te zetten naar plus
-",
-  h2s2: "📘 **Hoofdstuk 2 – Rekenen met negatieve getallen**
+- Dubbele min vergeten om te zetten naar plus`,
+  h2s2: `📘 **Hoofdstuk 2 – Rekenen met negatieve getallen**
 
 ### ✖️ Vermenigvuldigen & ➗ Delen — tekenregels
 | Tekens | Resultaat | Voorbeeld |
@@ -109,9 +107,8 @@ Negatieve getallen zijn kleiner dan nul en liggen **links** van 0 op de getallen
 Dezelfde tekens → **plus**. Verschillende tekens → **min**.
 
 ### 💡 Tip
-Bij delen gelden dezelfde tekenregels als bij vermenigvuldigen.
-",
-  h3: "📘 **Hoofdstuk 3 – Het assenstelsel**
+Bij delen gelden dezelfde tekenregels als bij vermenigvuldigen.`,
+  h3: `📘 **Hoofdstuk 3 – Het assenstelsel**
 
 ### 🧭 Wat is het?
 - **x-as**: horizontaal (links–rechts)  
@@ -129,9 +126,8 @@ Eerst **x**, dan **y**:
 
 ### ⚠️ Veelgemaakte fouten
 - Volgorde omdraaien (y, x)  
-- Minteken vergeten → verkeerde kwadrant
-",
-  h4s1: "📘 **Hoofdstuk 4 – Getallen: afronden**
+- Minteken vergeten → verkeerde kwadrant`,
+  h4s1: `📘 **Hoofdstuk 4 – Getallen: afronden**
 
 ### 🔎 Regel
 Kijk naar het eerst weg te laten cijfer:  
@@ -142,9 +138,8 @@ Kijk naar het eerst weg te laten cijfer:
 - 3,46 op 1 decimaal → **3,5**  
 - 148 op tientallen → **150**
 
-💡 Tip: schrijf op *waarop* je afrondt (decimalen, tientallen).
-",
-  h4s2: "📘 **Hoofdstuk 4 – Verhoudingen & prijs berekenen**
+💡 Tip: schrijf op *waarop* je afrondt (decimalen, tientallen).`,
+  h4s2: `📘 **Hoofdstuk 4 – Verhoudingen & prijs berekenen**
 
 ### ⚖️ Verhoudingen
 Vergelijken van aantallen: 8 : 12 = 2 : 3 (vereenvoudig door te delen).
@@ -153,8 +148,7 @@ Vergelijken van aantallen: 8 : 12 = 2 : 3 (vereenvoudig door te delen).
 500 ml kost €3 → per 100 ml = €3 ÷ 5 = **€0,60**  
 250 ml? → 2,5 × €0,60 = **€1,50**
 
-💡 Tip: Maak een **verhoudingstabel** om fouten te voorkomen.
-",
+💡 Tip: Maak een **verhoudingstabel** om fouten te voorkomen.`,
 } as const;
 
 const SUBJECTS: Subject[] = [
